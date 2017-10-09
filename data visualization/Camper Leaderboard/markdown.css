@@ -1,0 +1,30 @@
+table
+  border: solid
+  text-align: center
+  thead
+    font:
+      size: 20px
+      weight: bold
+
+  tbody
+    td
+      vertical-align: middle
+    td:nth-child(2)
+      text-align: left
+    tr:nth-child(odd)
+      background-color: #a2f2f2
+    img
+      margin: 0 10px
+      vertical-align: middle
+      width: 50px
+
+a
+  text-decoration: none
+  color: #00a
+
+#content
+  width: 80%
+  margin-left: auto
+
+.selected
+  background: red

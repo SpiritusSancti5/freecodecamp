@@ -1,0 +1,72 @@
+.quote {
+  position: relative;
+  background-color: #ff22ff;
+  width: 600px;
+  padding: 30px;
+  text-align: center;
+  height: auto;
+  margin: 9% auto auto auto;
+  border-radius: 500px;
+  color: white;
+}
+
+body {
+  font-family: "Comic Sans MS";
+  font-size: 55px;
+  background-color: #00ffff;
+}
+
+.quoteLeftSymbol {
+  font-size: 35px;
+  margin: 20px;
+  vertical-align: top;
+}
+
+.txt {
+  font-size: 20px;
+}
+
+button {
+  border-radius: 20px;
+  background-color: #ffff00;
+  font-family: "Comic Sans MS";
+  font-weight: bold;
+  color: #ff00ff;
+  border-color: #ff0000;
+  margin: 15px;
+  padding: 5px 5px;
+}
+
+#newQ {
+  float: right;
+  position: absolute;
+  right: 120px;
+  bottom: 0px;
+  padding: 5px 5px;
+}
+
+#author {
+  left: 90px;
+  position: relative;
+  bottom: 5px;
+}
+
+#tweet_button {
+  position: absolute;
+  left: 90px;
+  bottom: 0px;
+  font-size: 25px;
+  width: 55px;
+  padding: 0px;
+}
+#description{
+  margin-top: 35px;
+  text-align: center;
+  font-size: 15px;
+  color: #555;
+}
+
+.quote .quote {
+  padding-top: 20px;
+  margin: 9% auto auto auto;
+}

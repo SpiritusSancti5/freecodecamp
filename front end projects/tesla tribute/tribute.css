@@ -1,0 +1,25 @@
+h1 {
+  padding: 20px;
+  text-align: center;
+  color: blue;
+}
+.content{
+  background-color: grey;
+  margin: 20px 20px 20px 20px;
+  display: block;
+  padding-bottom:30px;
+}
+
+figure {
+  display: block;
+  margin-left: 10px;
+}
+
+h3{
+  text-align:center;
+  color: #0505AA;
+}
+
+img {
+  padding: 10px;
+}

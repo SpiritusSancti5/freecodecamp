@@ -1,0 +1,102 @@
+body {
+    background-image: url("https://s17.postimg.org/wsr02h8tr/timer_background_2.jpg");
+  background-size: cover;
+    overflow: scroll;
+  /* avoid ugly background caused by selecting the text */
+  user-select: none;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+}
+
+body > div {
+  background-size: contain;
+  background-repeat: no-repeat;
+ /* width: 200px;
+  height: 200px;
+  float: left;
+  margin-top: 10%; */
+  color: #ccc;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  line-height: 50px;
+}
+
+#break {
+   background-image: url("https://s10.postimg.org/t7a7ple85/break_preview.jpg");
+  /* position: absolute;
+  left: 15%;
+  top: 5%; */
+}
+
+#timer {
+   background-image: url("https://s10.postimg.org/z9hug32o5/timer_clock.jpg");
+  /* position: absolute;
+  top: 5%;
+  right: 15%; */
+}
+
+#current {
+  background-image: url("https://s10.postimg.org/skbb02hc5/timer_preview.jpg");
+  /* clear: both;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  margin-right:45%; */
+  width: 350px;
+    height: 350px;
+    margin: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 2% auto auto auto;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 250px;
+  justify-content: space-around;
+  margin-top: 5%;
+  margin-bottom: 2px;
+}
+
+.flex-item, #break, #timer {
+    width: 200px;
+    height: 200px;
+    margin: 10px 20px 2px 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#counter {
+  font-size: 40px;
+  margin-top: 20%;
+}
+
+#preview_break,
+#preview_session {
+  font-size: 25px;
+  margin-top: 20%;
+}
+
+#description {
+  margin-top: 2%;
+}
+
+#b_min,
+#b_plus,
+#s_min,
+#s_plus {
+  cursor: pointer
+}
+
+#current,
+#timer,
+#break {
+  border-radius: 50px;
+}

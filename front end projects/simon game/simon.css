@@ -1,0 +1,126 @@
+#game {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  position: relative;
+  text-align: center;
+  margin: 20% auto 20% auto;
+}
+
+body {
+  background-image: url(http://covermyfb.com/media/covers/fWWZlFXOMX8rOmIW.jpg);
+  background-size: cover;
+  margin: 0;
+}
+
+#commence {
+  color: #a00033;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 100%;
+  border-color: #ff0099;
+  height: 115px;
+  background-color: #dd0000;
+  text-shadow:
+   -1px -1px 0 #ff66a3,
+    1px -1px 0 #ff471a,
+    -1px 1px 0 #ff471a,
+     1px 1px 0 #cc0000;
+  margin: auto
+}
+
+.f {
+  width: 280px;
+  height: 280px;
+  margin: auto;
+}
+
+.fl {
+  width: 130px;
+  height: 130px;
+  margin: 0;
+  float: left;
+  border: 5px solid black;
+}
+
+.yell {
+  border-top-left-radius : 100%;
+  background-color: #aaaa00;
+  cursor: pointer;
+}
+
+.gree {
+  border-top-right-radius: 100%;
+  background-color: #00aa00;
+  cursor: pointer;
+}
+
+.re {
+  border-bottom-left-radius: 100%;
+  background-color: #aa0000;
+  clear: both;
+  cursor: pointer;
+}
+
+.unclickable{
+  pointer-events:none;
+}
+
+.blu {
+  border-bottom-right-radius: 100%;
+  background-color: #0000aa;
+  cursor: pointer;
+}
+
+#oki {
+  position: absolute;
+  top: 28%;
+  left: 31%;
+}
+
+#menu {
+  position: absolute;
+  top: 39%;
+  left: 39%;
+  text-align: center;
+}
+
+#menu button {
+  border-radius: 20px;
+}
+
+#magic_space {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.spin {
+-webkit-animation-name: spin_it;
+    -webkit-animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+  animation: spin_it 20s 0s linear infinite;
+}
+
+.extreme {
+-webkit-animation-name: spin_it;
+    -webkit-animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+  animation: spin_it 2s 0s linear infinite;
+}
+
+@-webkit-keyframes spin_it {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin_it {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+#count {
+  color : #330000;
+  font-weight: bold;
+  font-size: 20px;
+}

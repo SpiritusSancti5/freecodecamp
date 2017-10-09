@@ -1,0 +1,171 @@
+@import 'https://fonts.googleapis.com/css?family=Alex+Brush';
+
+.highly_irritating {
+  	background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/iPqZZmF/alien-dream-psychedelic-abstract-flowing-fractal-garish-colorful-background-loop-3_4h-ompmug__S0000.jpg");
+    background-color: #cccccc;
+  padding-bottom: 150px;
+  color: #ff00ff;
+  font-weight: 900;
+  font-size: 69px;
+}
+
+.centered {
+  margin-top: 5%;
+  text-align: center;
+}
+
+div.iframe iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blink {
+  color: #ff00ff;
+  text-align: center;
+  font-size: 200px;
+    animation-duration: 1s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes blink {
+    from {
+        opacity: 0.8;
+    }
+    to {
+        opacity: 0.2;
+    }
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.marquee {
+  display: inline-block;
+  margin: 3% 0% 3% 0%;
+}
+
+.brush_script {
+  font-family: 'Alex Brush', cursive;
+  width: 83%;
+}
+
+.modal > img {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.lower_bit {
+  margin: 5% 0% 5% 0%;
+}
+
+#description {
+  text-align: center;
+  padding: 5% 0 2% 0;
+  clear: both;
+}
+
+.chat_reverse {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  width: 15%;
+  float: left;
+  padding: 0 2% 0 2%;
+  height: 100%;
+  font-size: 70%;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  line-height: 200%;
+  font-family: Arial;
+}
+
+.chat {
+  line-height: 200%;
+  width: 15%;
+  float: left;
+  padding: 0 2% 0 2%;
+  height: 100%;
+  font-size: 70%;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  font-family: Arial;
+}
+
+#streamers {
+  float: left;
+  width: 52%;
+  padding-left: 9px;
+}
+
+.lower_bit {
+}
+
+.lower_bit > div {
+  margin: 0 0 0 0;
+}
+
+.onStatus {
+  text-align: left;
+  font-size: 12px;
+  clear: both;
+}
+
+.streamer {
+  margin-bottom: 3%;
+  cursor: pointer;
+  clear: both;
+  position: relative;
+}
+
+.streamer:hover {
+  background-color: #111;
+}
+
+.streamer img {
+    float: left;
+  margin-right: 2%;
+}
+
+.streamer h3 {
+  text-align: left;
+  padding: 0 2% 0.5% 0;
+  color: #ffffaa;
+}
+
+.streamer h4 {
+  color: #e6e6ff;
+}
+
+h4 span {
+  font-size: 55%;
+}
+
+.stream_preview {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
